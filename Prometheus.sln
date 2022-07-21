@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".root", ".root", "{115FD1F4-40D2-4996-8303-ED10F7F36244}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1A336BC2-3AC1-465B-A234-F348304FA8DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prometheus.Http.Querying", "src\Prometheus.Http.Querying\Prometheus.Http.Querying.csproj", "{6432225C-4BBC-4D81-91E9-B61AD1E21012}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2E007D5D-AAD6-431E-ACE9-A3CA25C50BBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "test\TestProject1\TestProject1.csproj", "{014F4BB5-7ED6-46E7-BA54-68FE077987EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromCon", "test\PromCon\PromCon.csproj", "{D8DB4778-A701-4F77-89F4-0FF3567D4DE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6432225C-4BBC-4D81-91E9-B61AD1E21012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6432225C-4BBC-4D81-91E9-B61AD1E21012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6432225C-4BBC-4D81-91E9-B61AD1E21012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6432225C-4BBC-4D81-91E9-B61AD1E21012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014F4BB5-7ED6-46E7-BA54-68FE077987EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014F4BB5-7ED6-46E7-BA54-68FE077987EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014F4BB5-7ED6-46E7-BA54-68FE077987EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014F4BB5-7ED6-46E7-BA54-68FE077987EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DB4778-A701-4F77-89F4-0FF3567D4DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DB4778-A701-4F77-89F4-0FF3567D4DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DB4778-A701-4F77-89F4-0FF3567D4DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DB4778-A701-4F77-89F4-0FF3567D4DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6432225C-4BBC-4D81-91E9-B61AD1E21012} = {1A336BC2-3AC1-465B-A234-F348304FA8DE}
+		{014F4BB5-7ED6-46E7-BA54-68FE077987EE} = {2E007D5D-AAD6-431E-ACE9-A3CA25C50BBD}
+		{D8DB4778-A701-4F77-89F4-0FF3567D4DE3} = {2E007D5D-AAD6-431E-ACE9-A3CA25C50BBD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0D8921E-AF23-4C3A-94C7-4D759B382647}
+	EndGlobalSection
+EndGlobal

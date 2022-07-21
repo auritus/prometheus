@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Marius Keuck</Authors>
+    <Copyright>© Marius Keuck 2022</Copyright>
+    <Product>Prometheus</Product>
+    <Version>0.0.1</Version>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+</Project>
